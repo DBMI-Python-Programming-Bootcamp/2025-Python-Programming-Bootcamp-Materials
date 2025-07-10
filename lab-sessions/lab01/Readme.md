@@ -145,8 +145,8 @@ These lines will just display numbers representing the lengths of the respective
 We can make these more informative:
 
 ```python
-print(f"mystring_1 is the name of a variable that currently stores a string value, and the length of that string is: {len(my_string1))}")
-print(f"mystring_2 is the name of a variable that currently stores a string value, and the length of that string is: {len(my_string2))}")
+print(f"mystring_1 is the name of a variable that currently stores a string value, and the length of that string is: {len(my_string1)}")
+print(f"mystring_2 is the name of a variable that currently stores a string value, and the length of that string is: {len(my_string2)}")
 ```
 
 Because strings are represented in Python as sequences of letters/characters, we can access specific locations within that sequence,
