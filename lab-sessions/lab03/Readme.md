@@ -316,7 +316,7 @@ for i in range(1,10): # this loop has i go from 1-9
 ```
 In this code we loop over the range of 1-10 (integers 1-9) in variable *i*. We also loop over the same range in variable *j*. We then loop and output *i* * *j*. For a visualization of what's happening see the figure below.
 
-![](figures/nested_loops.png)
+![](nested_loops.png)
 
 We can see that if we had done our first approach to output each number would take us 4 lines of code, so 9 numbers would have been 36 (4*9) lines of code. This accomplished the same thing in 5 lines of code. But, how many times did this loop? We could easily check using a variable that increments whenever we loop.
 
