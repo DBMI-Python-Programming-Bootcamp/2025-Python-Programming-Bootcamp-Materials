@@ -121,14 +121,6 @@ Python uses indentation ("whitespace") to keep track of what is inside a loop (a
 What's wrong with this code?
 
 ```python
-for n in list_of_numbers:
-    print(n * 2)
-print(f"Finally, n is: {n}")
-```
-
-What's wrong with this code?
-
-```python
 for n in list_of_numbers
     print(n * 2)
 ```
