@@ -1,10 +1,12 @@
 2025 Summer Python Programming Bootcamp - Assignment 02
-========
-Part 0: Setup
-======
-* In PyCharm, create a Python script named "assignment02.py". 
 
-Write all of your Python code for the below tasks in the *assignment02.py* file.
+### Due Tuesday, July 17 at 3:00pm
+
+Part 0 : Setup
+=====
+
+* In PyCharm, create a Python script named "assignment02.py". 
+* Write all of your Python code for the below tasks in the *assignment02.py* file.
 
 Part 1 : Python lists and loops
 ======
