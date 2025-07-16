@@ -1,4 +1,4 @@
-2025 Summer Python Programming Bootcamp - Assignment 02
+# 2025 Summer Python Programming Bootcamp - Assignment 02
 
 ### Due Tuesday, July 17 at 3:00pm
 
