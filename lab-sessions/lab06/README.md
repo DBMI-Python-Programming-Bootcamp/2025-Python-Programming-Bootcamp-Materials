@@ -475,7 +475,8 @@ That version prints out a message telling us whether the list is sorted, but it 
 
 Let's make a version of _is\_sorted_ that actually returns an answer (True or False):
 
-
+**NOTE: this version was broken in class on July 24, 2025 due to a subtle issue with the indentation**.
+It *should* be fixed here, but please pay attention to warnings in PyCharm about inconsistent indentation when you copy blocks of code from these notes!!
 
 ```python
 def is_sorted(a_list):
@@ -484,7 +485,7 @@ def is_sorted(a_list):
         if a_list[i] > a_list[i + 1]:
             out_of_order = True
             break
-	return out_of_order
+    return not out_of_order
 ```
 
 
