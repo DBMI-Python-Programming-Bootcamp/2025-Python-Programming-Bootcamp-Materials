@@ -262,16 +262,17 @@ Looking at the conditions file
 ```python
 print(conds.to_string())
 print(conds['DESCRIPTION'])
-print(conds[conds['DESCRIPTION'] == 'Essential hypertension (disorder)'])
+print(conds[conds['DESCRIPTION'] == 'Fever (finding)'])
 ```
 
 We can match data from the two files, patients and conditions
 ```python
-hypertensions = conds[conds['DESCRIPTION'] == 'Essential hypertension (disorder)']
-print(hypertensions['PATIENT'])
+fever = conds[conds['DESCRIPTION'] == 'Fever (finding)']
+print(fever['PATIENT'])
+print(pats['Id'])
 print(pats['Id'].isin(conds['PATIENT']))
-print(pats[pats['Id'].isin(hypertensions['PATIENT'])])
-hypertension_pats = pats[pats['Id'].isin(hypertensions['PATIENT'])]
+print(pats[pats['Id'].isin(fever['PATIENT'])])
+fever_pats = pats[pats['Id'].isin(fever['PATIENT'])]
 ```
 
 isin() function can be used to look for specific values in a list, dictionary, or dataframe
